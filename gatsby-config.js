@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Vinay Gopalaiah - MEAN/MERN Developer",
+    title: "Vinay Gopalaiah - Principal Software Engineer | React | Django",
     author: "Vinay Gopalaiah",
-    description: "A Full Stack MEAN & MERN Developer with 5+ years experience"
+    description: "A Full Stack MEAN & MERN Developer with 7+ years experience"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

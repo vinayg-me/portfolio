@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/Vinay Linkedin New Enhanced.jpg'
 import pic02 from '../images/pic02.webp'
 import pic03 from '../images/pic03.webp'
 
@@ -23,9 +23,8 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
@@ -33,33 +32,35 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            I am a Principal Software Engineer with an experience of 7+ years in software
+            development, architecting and delivering high quality websites and mobile
+            applications (Hybrid) in various industries. I have a proven track record of
+            delivering high quality products to customers. I have extensively worked with
+            Small to Medium sized companies and enjoyed the challenges of building scalable,
+            performant and cost effective solutions.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Well versed with modern web technologies and frameworks, including React, Node,
+            GraphQL, Angular, Django. I love to learn new technologies and am always looking
+            to improve my skills.
+          </p>
+          <p>
+            Outside work, I love to read self help books, technical articles, watch movies,
+            play board games and love playing outdoor sports like Football, Cricket &
+            Volleyball. I enjoy taking occassional road trips to explore new places & local
+            culture.
+          </p>
+          <p>
+            I like mentoring and helping others learn new skills and technologies. Please feel
+            free to reach out to me if you have any questions or want to work together.
           </p>
           {close}
         </article>
 
         <article
           id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
@@ -67,28 +68,17 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            I have been working with CodeParva Technologies since the year 2018. I have since then worked on various challenging projects like developing a customized redux framework, which improves the Developer experience greatly.
+            I have also worked on creating a ESign application, which is being used by many clients in USA.
+            We are currently working on creating a configurations driven web application, which will enable our customers to create a website just from the CMS.
           </p>
           {close}
         </article>
 
         <article
           id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
@@ -96,22 +86,17 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I have been working with CodeParva Technologies since the year 2017. I have since then worked on various challenging projects like developing a customized redux framework, which improves the Developer experience greatly.
+            I have also worked on creating a ESign application, which is being used by many clients in USA.
+            We are currently working on creating a configurations driven web application, which will enable our customers to create a website just from the CMS.
           </p>
           {close}
         </article>
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
