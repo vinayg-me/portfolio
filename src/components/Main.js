@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import pic01 from '../images/vinay-solo.jpg';
+import pic01 from '../images/vinay-solo-new.jpg';
 import pic02 from '../images/Vinay 2.jpg';
 import pic03 from '../images/pic03.webp';
 
