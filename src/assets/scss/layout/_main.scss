@@ -31,6 +31,15 @@
 			background-color: transparentize(_palette(bg), 0.15);
 			border-radius: _size(border-radius);
 			opacity: 0;
+			p {
+				text-align: justify;
+			}
+			.workTitle {
+				letter-spacing: normal;
+			}
+			.roleName {
+				letter-spacing: normal;
+			}
 
 			&.timeout {
 				display: none;
