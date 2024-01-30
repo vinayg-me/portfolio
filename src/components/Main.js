@@ -32,7 +32,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            I am a Principal Software Engineer with an experience of 7+ years in software
+            I am a Principal Software Engineer with an experience of 9 years in software
             development, architecting and delivering high quality websites and mobile
             applications (Hybrid) in various industries. I have a proven track record of
             delivering high quality products to customers. I have extensively worked with
